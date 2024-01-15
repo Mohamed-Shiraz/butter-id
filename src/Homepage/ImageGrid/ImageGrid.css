@@ -1,0 +1,7 @@
+.Cat-splash-img {
+    height: 360px; /* janky fix to accomodate pics of different aspect ratios */
+    width: calc(50% - 10px);
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(1.2);
+}

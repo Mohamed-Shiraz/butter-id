@@ -1,0 +1,20 @@
+.Kitty-svg {
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    width: 100px;
+    height: 100px;
+    animation: rotateAnimation 2s infinite ease-in-out;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}
